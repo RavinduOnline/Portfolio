@@ -1,0 +1,94 @@
+.project-mini-card-main-container{
+    width: 100%;
+    
+}
+
+.project-mini-card-container{
+    width: 95%;
+    height: max-content;
+    margin: 0px  10px 10px 10px;
+    border-radius: 15px;
+    border-color: #f0341b;
+    border-width:1px ;
+    border-style: solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.project-mini-card-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.project-mini-card-container2{
+    margin: 10px;
+}
+
+.project-mini-card-links{
+    margin-top: 6px;
+    display: flex;
+    margin: auto;
+}
+
+.project-mini-card-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-mini-card-link-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    background-color: #f0341b;
+    padding:4px 8px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    padding:4px 8px;
+    width: 100%;
+}
+
+.project-mini-card-btn{
+    width: 100%;
+}
+
+.project-mini-card-about{
+    text-align: justify;
+    font-size: 13px;
+}
+
+.project-mini-card-tag-box{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-mini-card-tag{
+  
+    background-color: none;
+    color: #f0341b;
+    border-color: #f0341b;
+    border-width:1px ;
+    border-style: solid;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 720px){
+
+    .project-mini-card-container{
+        width: 95%;
+        height: max-content;
+    }
+
+}

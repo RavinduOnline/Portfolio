@@ -1,0 +1,39 @@
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 82px;
+}
+
+
+.body {
+    padding: 12px;
+    padding-bottom: 36px;
+    background-image: url("../Images/body-bg.jpg");
+    background-repeat: repeat;
+    background-size: 100% ;
+}
+
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    
+}
+
+
+@media only screen and (max-width: 720px){
+
+    .body {
+        background-image: none;
+    }
+
+    html{
+        scroll-behavior: smooth;
+        scroll-padding-top: 0px;
+    }
+
+}

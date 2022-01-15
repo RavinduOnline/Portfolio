@@ -1,0 +1,40 @@
+
+
+.web-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.web-menu-item{
+    font-size: 20px;
+    margin-right: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.web-menu-item a{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.web-menu-item a:hover{
+    color: red;
+}
+
+.web-menu-btn a:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 720px){
+
+    .web-menu{
+        display: none;
+    }
+
+    
+}
+

@@ -1,0 +1,35 @@
+
+.projects-main-box{
+    display: flex;
+    flex-direction: column;
+    float: 1;
+}
+
+.project-btn {
+    text-decoration: none;
+}
+
+
+.project-btn button{
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    cursor:pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 5px;
+}
+
+.project-btn button:hover{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}

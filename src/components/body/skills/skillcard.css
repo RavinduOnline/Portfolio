@@ -1,0 +1,36 @@
+
+.skill-card{
+    width: max-content;
+    padding: 8px 16px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    border-radius: 8px;
+}
+   
+.skill-icon{
+    font-size: 90px;
+}
+
+.skill-name{
+    font-size: 18px;
+}
+
+.SQL-Icon{
+    color: darkblue;
+}
+
+@media only screen and (max-width: 720px){
+
+    .skill-icon{
+        font-size: 60px;
+    }
+    
+    .skill-name{
+        font-size: 16px;
+    }
+
+}

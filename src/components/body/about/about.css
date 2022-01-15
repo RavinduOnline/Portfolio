@@ -1,0 +1,188 @@
+
+.about-main-box{
+    padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 176px;
+    margin: 0px -11px; 
+    margin-top: -11px;
+    margin-bottom: 40px;
+    background-image: url("../../Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;  
+}
+
+.about-main-img{
+    height: 530px;
+    margin-right: 80px;
+}
+
+.about-info{
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.about-title{
+    font-size: 32px;
+}
+
+.about-details{
+    font-size: 18px;
+}
+
+.about-role{
+    color: red;
+}
+
+.social-link{
+    padding-top: 70px;
+}
+
+.about-bottom{
+    display: none;
+}
+
+.about-cv-btn{
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    cursor:pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.cv-dwn-a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cv-btn:hover{
+    background-color: rgb(212, 20, 20);
+    color: white;
+}
+
+@media only screen and (max-width: 720px){
+
+    .about-main-box{ 
+        background-image: none;
+        margin: 0px 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-main-img{
+        height: 200px;
+        margin-right: 0px;
+    }
+
+    .about-info{
+        width: 100%;
+    }
+
+    .social-link{
+        display: none;
+    }
+
+    .about-bottom{
+        display: flex;
+    }
+
+    .about-cv-btn{
+        display: inline;
+        padding: 0px 10px;
+        
+    }
+
+    .about-info{
+        font-size: 17px;
+    }
+    
+    .about-title{
+        font-size: 22px;
+    }
+    
+    .about-details{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+
+
+    .about-main-box{
+        padding-left: 35px;
+        padding-right: 30px;
+        padding-top: 127px;
+    
+    }
+
+    .about-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;  
+    }
+    
+    .about-main-img{
+        height: 870px;
+        padding-right: 30px;
+    }
+    
+    .about-info{
+        font-size: 32px;
+        text-align: center;
+        width: 50%;
+        
+    }
+    
+    .about-title{
+        font-size: 50px;
+    }
+    
+    .about-details{
+        font-size: 24px;
+        
+    }
+
+    .social-link{
+        margin-top: 50px;
+    }
+
+    .about-cv-btn{
+        font-size: 20px;
+        font-weight: 700;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .about-main-img{
+        height: 330px;
+        margin-right: 0px;
+    }
+}

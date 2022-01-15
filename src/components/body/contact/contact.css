@@ -1,0 +1,174 @@
+
+.main-contact-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: 1;
+    margin: 0px;
+}
+.contact-main-box{
+    width: 61%;
+    flex: 1;
+    margin-top: 0px;
+    padding:0px ;
+}
+
+.contact-sub-box1{
+    margin-top: 16px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-color: rgb(192, 8, 8);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.contact-sub-box{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    height: max-content;
+}
+
+
+
+.contact-tag{
+    margin: 10px ;
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+}
+
+.contact-input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 28px;
+    border-radius: 4px;
+    border-color: none;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.contact-input-area{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 8px;
+    font-size: 14px;
+    resize: none;
+}
+
+.contact-submitbtn{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    width: 150px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    border:none;
+    margin-right: -11px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contact-submitbtn:hover{
+    background-color: rgb(190, 36, 36);
+
+}
+
+
+.contact-img{
+    display: flex;
+    height: 300px;
+}
+
+.email-box{
+    width: 61%;
+    height: 30px;
+    margin: 10px;
+    border-color: rgb(192, 8, 8);
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+    display: flex;
+}
+.email-add{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.email-add a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 720px){
+    
+    .contact-main-box{
+        width: 100%;
+    }
+    
+    .contact-sub-box1{
+        width: 98%;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+
+    .contact-sub-box{
+        width: 90%;
+        height: max-content;
+    }
+
+    .contact-tag{
+        font-size: 18px;
+    }
+
+    .contact-input{
+        width: 100%;
+        height: 40px;
+    }
+
+    .contact-input-area{
+        height: 100px;
+    }
+
+    .contact-submitbtn{
+        width: 102%;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-right: -11px;
+    }
+
+    .email-box{
+        width: 100%;
+    }
+
+}

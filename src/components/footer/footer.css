@@ -1,0 +1,13 @@
+
+.footer-box{
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 24px;
+    color: red;
+    border-top: 1px solid;
+    border-color: black;
+    text-align: center;
+}
